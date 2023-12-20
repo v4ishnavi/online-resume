@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+h1{
+    text-align: center;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.main {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Introduction Section */
+.intro {
+    background-color: #e7e7e7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Programming Languages Section */
+.programming {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+.education {
+    margin-bottom: 20px;
+}
+
+.education h4 {
+    color: #6c757d;
+}
+
+/* Experience Section */
+.experience ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Projects Section */
+.projects div {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Extracurricular Activities Section */
+.extra div {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+/* Education Section */
+.education {
+    background-color: #cfe2f3; /* Light blue */
+    
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.education h4 {
+    color: brown;
+}
+
+/* Experience Section */
+.experience {
+    background-color: #d4edda; /* Light green */
+    color: #155724; /* Dark green */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.experience ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Projects Section */
+.projects {
+    /* Light orange */
+    color: #cc8400; /* Darker orange */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.projects div {
+    margin-bottom: 10px;
+}
+
+/* Adjusting the existing sections for consistency */
+.programming {
+    background-color: #d1ecf1; /* No change, keeping the original color */
+}
+
+.intro {
+    background-color: #e7e7e7; /* No change, keeping the original color */
+}
+
+.extra div {
+    background-color: #f8ddf9; /* Pink shade for extracurricular activities */
+    color: #721c24; /* Darker pink for text */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .main {
+        width: 95%;
+    }
+}
