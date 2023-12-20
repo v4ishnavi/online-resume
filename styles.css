@@ -14,6 +14,10 @@ h1, h2, h3, h4 {
 h1{
     text-align: center;
 }
+.date {
+    text-align: center;
+    color:gray;
+}
 a {
     color: #007bff;
     text-decoration: none;
